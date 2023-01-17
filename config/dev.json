@@ -1,0 +1,9 @@
+{
+    "serverConfig": {
+        "backendPort": 8000,
+        "frontendPort": 3000
+    },
+    "db": "mongodb://localhost:27017/myapp",
+    "JWT_ACCESS_KEY": "secretkey",
+    "JWT_REFRESH_KEY": "refreshkey"
+}
