@@ -3,7 +3,7 @@
         "backendPort": 8000,
         "frontendPort": 3000
     },
-    "db": "mongodb://localhost:27017/myapp",
+    "db": "mongodb+srv://project-mongodb:147859874123@cluster0.fkce5fc.mongodb.net/clothes_app",
     "JWT_ACCESS_KEY": "secretkey",
     "JWT_REFRESH_KEY": "refreshkey"
 }
