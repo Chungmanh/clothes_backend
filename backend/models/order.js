@@ -3,10 +3,10 @@ const Schema = mongoose.Schema;
 
 const order = new Schema(
   {
-    name: { type: String },
+    name: { type: String, required: true },
     email: { type: String },
-    phoneNumber: { type: String },
-    address: { type: String },
+    phoneNumber: { type: String, required: true },
+    address: { type: String, required: true },
     status: { type: Boolean, default: false },
     detail: [
       {
